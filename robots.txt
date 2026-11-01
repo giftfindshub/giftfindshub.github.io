@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://giftfindshub.github.io/sitemap.xml
