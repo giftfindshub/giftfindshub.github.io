@@ -90,3 +90,5 @@ h2{font-size:clamp(24px,3vw,32px);margin:48px 0 18px}
 .gtile.has-img .gemo{position:absolute;left:10px;bottom:-14px;font-size:22px;background:#fff;border-radius:50%;width:40px;height:40px;display:grid;place-items:center;box-shadow:0 2px 8px rgba(0,0,0,.2)}
 .gtile.has-img .gt{display:block;padding:22px 16px 0}
 .gtile.has-img .gc{display:block;padding:4px 16px 16px}
+.cart{display:inline-block;margin:8px 0 0 4px;font-size:13px;font-weight:600;color:var(--muted,#6e5a4c);text-decoration:none;border-bottom:1px dotted currentColor}
+.cart:hover{color:var(--berry,#b23a5a)}
