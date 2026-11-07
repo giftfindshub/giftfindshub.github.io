@@ -82,3 +82,11 @@ h2{font-size:clamp(24px,3vw,32px);margin:48px 0 18px}
 .card:hover .tile.photo img{transform:scale(1.04)}
 .tile.photo .emo.small{position:absolute;right:10px;bottom:10px;font-size:26px;background:rgba(255,255,255,.9);border-radius:50%;width:44px;height:44px;display:grid;place-items:center;filter:none;box-shadow:0 2px 8px rgba(0,0,0,.2)}
 .tile.photo .num{z-index:2}
+.gtile.has-img{padding:0;overflow:hidden}
+.gtile .gimg{position:relative;display:block}
+.gtile.has-img .gimg{height:130px}
+.gtile.has-img .gimg img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
+.gtile.has-img:hover .gimg img{transform:scale(1.05)}
+.gtile.has-img .gemo{position:absolute;left:10px;bottom:-14px;font-size:22px;background:#fff;border-radius:50%;width:40px;height:40px;display:grid;place-items:center;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.gtile.has-img .gt{display:block;padding:22px 16px 0}
+.gtile.has-img .gc{display:block;padding:4px 16px 16px}
