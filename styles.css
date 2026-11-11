@@ -92,3 +92,8 @@ h2{font-size:clamp(24px,3vw,32px);margin:48px 0 18px}
 .gtile.has-img .gc{display:block;padding:4px 16px 16px}
 .cart{display:inline-block;margin:8px 0 0 4px;font-size:13px;font-weight:600;color:var(--muted,#6e5a4c);text-decoration:none;border-bottom:1px dotted currentColor}
 .cart:hover{color:var(--berry,#b23a5a)}
+.editorial{max-width:720px;margin:26px auto 10px;font-size:1.06rem;line-height:1.65;color:var(--ink,#2e2118)}
+.editorial p{margin:0 0 14px}
+.prose h2{margin-top:28px;font-size:1.3rem}
+.prose ul{padding-left:20px;line-height:1.6}
+.prose li{margin-bottom:8px}
